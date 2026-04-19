@@ -4,7 +4,7 @@ import { ProductsPage } from '../pages/products.page'
 import { Checkout1Page } from '../pages/checkout1.page';
 import { Checkout2Page } from '../pages/checkout2.page';
 
-test.describe('E-Commerce Flow', () => {
+test.describe('E-Com  merce Flow', () => {
   
   test('User harus bisa beli barang sampai checkout', async ({ page }) => {
     const loginPage = new LoginPage(page);

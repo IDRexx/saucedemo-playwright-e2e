@@ -32,7 +32,7 @@ Project ini adalah implementasi *Automated Testing* untuk alur e-commerce menggu
   3. Login dengan *password* melebih batas karakter ➡️ Muncul error validasi.
   4. Login dengan *username* melebih batas karakter ➡️ Muncul error validasi.
   5. Login dengan akun tidak terdaftar (unknown user) ➡️ Muncul error "Epic sadface: Username and password do not match...".
-* **Status Automation:** 🔄 Ongoing (`tests/login.spec.ts`)
+* **Status Automation:**  Done (`tests/login.spec.ts`)
 
 ---
 
@@ -45,7 +45,7 @@ Project ini adalah implementasi *Automated Testing* untuk alur e-commerce menggu
   3. Klik tombol Login.
 * **Expected Result:** * Browser tidak mengeksekusi script (TIDAK muncul *popup alert*).
   * Sistem menangani input tersebut sebagai *string* biasa dan memunculkan pesan error *login* standar.
-* **Status Automation:** 🔄 Ongoing (`tests/security.spec.ts`)
+* **Status Automation:**  Done (`tests/security.spec.ts`)
 
 ----
 
@@ -57,7 +57,7 @@ Project ini adalah implementasi *Automated Testing* untuk alur e-commerce menggu
   2. Pilih opsi "Price (low to high)".
   3. Ekstrak seluruh harga item yang tampil di layar ke dalam bentuk Array angka.
 * **Expected Result:** Array harga harus berurutan secara *ascending* (contoh: 7.99, 9.99, 15.99).
-* **Status Automation:** ⏳ To Do (`tests/inventory.spec.ts`)
+* **Status Automation:**  Done (`tests/inventory.spec.ts`)
 
 ---
 

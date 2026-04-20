@@ -19,7 +19,7 @@ Project ini adalah implementasi *Automated Testing* untuk alur e-commerce menggu
   4. Isi nama depan, nama belakang, dan kode pos, lalu klik *Continue*.
   5. Validasi detail pesanan dan klik *Finish*.
 * **Expected Result:** Muncul pesan sukses "Thank you for your order!".
-* **Status Automation:** ✅ Selesai (`tests/checkout.spec.ts`)
+* **Status Automation:** Done (`tests/checkout.spec.ts`)
 
 ---
 
